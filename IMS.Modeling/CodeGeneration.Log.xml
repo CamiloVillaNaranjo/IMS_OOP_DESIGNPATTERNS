@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 14.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2017-01-20T13:00:27" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2017-01-20T13:00:27" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2017-01-20T13:00:27" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-01-20T13:00:27" Importance="Diagnostic" Text="ProjectPath = ..\IMS.ModelingLib\IMS.ModelingLib.csproj" />
+  <Message Timestamp="2017-01-20T13:00:27" Importance="Diagnostic" Text="TargetDirectory = IMS.StupidParadigm\{PackageStructure}" />
+  <Message Timestamp="2017-01-20T13:00:27" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-01-20T13:00:27" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-01-20T13:00:27" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-01-20T13:00:27" Importance="Medium" Text="IMS.Modeling's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'IMS.Modeling::Persons' -  (Class), 'IMS.Modeling::Prototype' -  (Class), 'IMS.Modeling::Employees' -  (Class), 'IMS.Modeling::OfficeBillingProcess' -  (Class) " />
+  <Message Timestamp="2017-01-20T13:00:54" Importance="Medium" Text="Project Added: D:\Yuxi\Code\Self-study\IMS_OOP_DESIGNPATTERNS\IMS.Modeling\IMS.ModelingLib\IMS.ModelingLib.csproj" />
+  <Message Timestamp="2017-01-20T13:00:54" Importance="Medium" Text="'IMS.Modeling::Persons' -  (Class) : success (file created) - D:\Yuxi\Code\Self-study\IMS_OOP_DESIGNPATTERNS\IMS.Modeling\IMS.ModelingLib\IMS.StupidParadigm\Persons.cs" />
+  <Message Timestamp="2017-01-20T13:00:54" Importance="Medium" Text="'IMS.Modeling::Prototype' -  (Class) : success (file created) - D:\Yuxi\Code\Self-study\IMS_OOP_DESIGNPATTERNS\IMS.Modeling\IMS.ModelingLib\IMS.StupidParadigm\Prototype.cs" />
+  <Message Timestamp="2017-01-20T13:00:54" Importance="Medium" Text="'IMS.Modeling::Employees' -  (Class) : success (file created) - D:\Yuxi\Code\Self-study\IMS_OOP_DESIGNPATTERNS\IMS.Modeling\IMS.ModelingLib\IMS.StupidParadigm\Employees.cs" />
+  <Message Timestamp="2017-01-20T13:00:54" Importance="Medium" Text="'IMS.Modeling::OfficeBillingProcess' -  (Class) : success (file created) - D:\Yuxi\Code\Self-study\IMS_OOP_DESIGNPATTERNS\IMS.Modeling\IMS.ModelingLib\IMS.StupidParadigm\OfficeBillingProcess.cs" />
+  <Message Timestamp="2017-01-20T13:00:54" Importance="Diagnostic" Text="Name = InterfaceTemplate" />
+  <Message Timestamp="2017-01-20T13:00:54" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-01-20T13:00:54" Importance="Diagnostic" Text="ProjectPath = ..\IMS.ModelingLib\IMS.ModelingLib.csproj" />
+  <Message Timestamp="2017-01-20T13:00:54" Importance="Diagnostic" Text="TargetDirectory = IMS.StupidParadigm\{PackageStructure}" />
+  <Message Timestamp="2017-01-20T13:00:54" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-01-20T13:00:54" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2017-01-20T13:00:54" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2017-01-20T13:00:54" Importance="Medium" Text="IMS.Modeling's Text Template Binding: 'InterfaceTemplate' will apply InterfaceTemplate.t4 to: 'IMS.Modeling::IRol' -  (Interface) " />
+  <Message Timestamp="2017-01-20T13:00:55" Importance="Medium" Text="'IMS.Modeling::IRol' -  (Interface) : success (file created) - D:\Yuxi\Code\Self-study\IMS_OOP_DESIGNPATTERNS\IMS.Modeling\IMS.ModelingLib\IMS.StupidParadigm\IRol.cs" />
+  <Message Timestamp="2017-01-20T13:00:55" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2017-01-20T13:00:55" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-01-20T13:00:55" Importance="Diagnostic" Text="ProjectPath = ..\IMS.ModelingLib\IMS.ModelingLib.csproj" />
+  <Message Timestamp="2017-01-20T13:00:55" Importance="Diagnostic" Text="TargetDirectory = IMS.StupidParadigm\{PackageStructure}" />
+  <Message Timestamp="2017-01-20T13:00:55" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-01-20T13:00:55" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-01-20T13:00:55" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-01-20T13:00:55" Importance="Medium" Text="IMS.Modeling's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'IMS.Modeling::Persons' -  (Class), 'IMS.Modeling::Prototype' -  (Class), 'IMS.Modeling::Employees' -  (Class), 'IMS.Modeling::OfficeBillingProcess' -  (Class) " />
+  <Message Timestamp="2017-01-20T13:00:55" Importance="Diagnostic" Text="'IMS.Modeling::Persons' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-01-20T13:00:55" Importance="Diagnostic" Text="'IMS.Modeling::Prototype' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-01-20T13:00:55" Importance="Diagnostic" Text="'IMS.Modeling::Employees' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-01-20T13:00:55" Importance="Diagnostic" Text="'IMS.Modeling::OfficeBillingProcess' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-01-20T13:00:55" Importance="Diagnostic" Text="The selection included 3 elements which were not bound to a template." />
+  <Message Timestamp="2017-01-20T13:00:55" Importance="Diagnostic" Text="'f785f430-00aa-459e-8db7-af99a829b22b' -  (Generalization): no bound template." />
+  <Message Timestamp="2017-01-20T13:00:55" Importance="Diagnostic" Text="'53bcce54-23b0-479e-a93c-3c90ef789989' -  (Generalization): no bound template." />
+  <Message Timestamp="2017-01-20T13:00:55" Importance="Diagnostic" Text="'IMS.Modeling::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2017-01-20T13:00:55" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>
