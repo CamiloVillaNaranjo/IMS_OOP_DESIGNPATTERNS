@@ -25,6 +25,7 @@
     <Folder Include="ModelDefinition\" />
     <Content Include="IMS.StupidParadigm.classdiagram">
       <SubType>Content</SubType>
+      <CustomToolNamespace>SOLID</CustomToolNamespace>
     </Content>
     <Content Include="IMS.StupidParadigm.classdiagram.layout">
       <SubType>Content</SubType>
