@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IMS.ModelingLib.StrongCoupling;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,11 @@ namespace IMS.ModelingLib.IMS.StupidParadigm
 
             Console.WriteLine("obj1 & obj2 are {0}", obj1 == obj2 ? "equals" : "differents");
             Console.ReadKey();
+
+            var remote = RemoteControl.control;
+            Console.WriteLine("Power On button of Remote Control was clicked");
+            remote.PowerOnTv();
+
         }
     }
 }
