@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
   dslVersion="1.0.0.0"
   Id="ce286f20-eaa1-46a7-b663-d9c6958eab51"
-  name="IMS.Modeling" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  name="IMS.StupidModel" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
   <appliedStereotypesInternal>
     <stereotypeInstance
       Id="81adb6da-3add-485a-9dc7-005f1b4e1b1c"
@@ -265,6 +265,1457 @@
           </operation>
         </ownedOperationsInternal>
       </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="ab3f6b30-2f2a-4ee4-bb0b-7e716b0b1e31"
+        name="Sequence1"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="7c29cfc6-fa94-45e8-b856-631bf5c57d8d"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="1bf64281-27a0-49c1-8c1b-4cf7b9fedbad"
+                LastKnownName="ProductOwner"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="9820e7ab-914f-4563-b634-58244f535119"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="3a8149c9-8080-4560-8f05-bac2f69ea16a"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="3ed223b0-7a9b-44d2-bf62-537ed4bbe6d4"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="IMS.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c030eefa-c031-4255-abc5-2efa106831c9"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="IMS.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="9da5adb2-fe85-4869-8556-94a2d853616a"
+                LastKnownName="MessageOccurrenceSpecification26"
+                LastKnownLocation="IMS.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e806a29d-1178-4ac6-aa1a-ec20cc8d40ca"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="3a8149c9-8080-4560-8f05-bac2f69ea16a"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="e44dc58c-99a3-4c2d-8e30-16a25570694f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="IMS.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="1bf64281-27a0-49c1-8c1b-4cf7b9fedbad"
+                LastKnownName="ProductOwner"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b36e342a-9147-4322-9d98-e4be1750a06b"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="7a618916-9ba6-460a-9ffa-b9b31b2bc002"
+                LastKnownName="ProjectManager"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3ed223b0-7a9b-44d2-bf62-537ed4bbe6d4"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="1bf64281-27a0-49c1-8c1b-4cf7b9fedbad"
+                LastKnownName="ProductOwner"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="625fdb88-0c6b-4fc8-af07-f86a223bc7dc"
+            name="BehaviorExecutionSpecification8">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="edd50822-1fa2-48d7-acef-1f0be2db2fbe"
+                LastKnownName="ScrumMaster"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="9facd6d9-94b8-45a9-bf2a-78f496673b6d"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="e7791998-4803-4152-9fcd-4a9578c5b069"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="566bed26-cfc6-4af5-94b8-4e66e0d57da3"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="IMS.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="d2ec3937-eaf1-419d-a2b0-239fcc08c279"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="IMS.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e9851ea3-a8e9-4a1e-a8e4-668df480e323"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="IMS.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="fd203d15-b8ea-4ab4-884a-0680e4f2c90d"
+                LastKnownName="MessageOccurrenceSpecification25"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="e7791998-4803-4152-9fcd-4a9578c5b069"
+            name="ExecutionOccurrenceSpecification15">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="40641929-e087-43d2-96bb-4b452638450a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="IMS.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="edd50822-1fa2-48d7-acef-1f0be2db2fbe"
+                LastKnownName="ScrumMaster"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c030eefa-c031-4255-abc5-2efa106831c9"
+            name="MessageOccurrenceSpecification23">
+            <covered>
+              <lifelineMoniker
+                Id="1bf64281-27a0-49c1-8c1b-4cf7b9fedbad"
+                LastKnownName="ProductOwner"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="566bed26-cfc6-4af5-94b8-4e66e0d57da3"
+            name="MessageOccurrenceSpecification24">
+            <covered>
+              <lifelineMoniker
+                Id="edd50822-1fa2-48d7-acef-1f0be2db2fbe"
+                LastKnownName="ScrumMaster"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="86445f2a-783b-4e4e-9a32-34cce1f665d2"
+            name="BehaviorExecutionSpecification9">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="3c82a8b1-2cc4-4830-8b2f-53669fbaadd4"
+                LastKnownName="Developer"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="580a5445-5ae3-4d4d-933e-6eb6fde44807"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="04ea4000-473c-4dd2-87d2-b7e5e8878b56"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="a4471583-a50f-498a-a31a-825a34b3253a"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="IMS.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="1c59bc11-3281-4077-88be-a2680815e1ff"
+                LastKnownName="MessageOccurrenceSpecification31"
+                LastKnownLocation="IMS.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="17ed1c38-d73a-4851-8afd-bc31fc47b7b4"
+                LastKnownName="MessageOccurrenceSpecification34"
+                LastKnownLocation="IMS.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="a9d1907e-222d-4367-bd16-fe46ce657a48"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="04ea4000-473c-4dd2-87d2-b7e5e8878b56"
+            name="ExecutionOccurrenceSpecification17">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="53f4ac67-9dd3-488e-8250-710b5631b559"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="IMS.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3c82a8b1-2cc4-4830-8b2f-53669fbaadd4"
+                LastKnownName="Developer"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a4471583-a50f-498a-a31a-825a34b3253a"
+            name="MessageOccurrenceSpecification28">
+            <covered>
+              <lifelineMoniker
+                Id="3c82a8b1-2cc4-4830-8b2f-53669fbaadd4"
+                LastKnownName="Developer"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d2ec3937-eaf1-419d-a2b0-239fcc08c279"
+            name="MessageOccurrenceSpecification27">
+            <covered>
+              <lifelineMoniker
+                Id="edd50822-1fa2-48d7-acef-1f0be2db2fbe"
+                LastKnownName="ScrumMaster"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="20a6ba52-4489-4a68-a541-7d9f2c8c473a"
+            name="BehaviorExecutionSpecification10">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="0e425be2-1bae-40b6-abc8-a404590db6de"
+                LastKnownName="Tester"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="efd84976-8388-4f7b-9209-d6469c677b0e"
+                LastKnownName="ExecutionOccurrenceSpecification20"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="9cb74b99-876d-43c0-b57e-8c8db50eac74"
+                LastKnownName="ExecutionOccurrenceSpecification19"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="fca8efd4-e568-4271-b473-badf01622bfe"
+                LastKnownName="MessageOccurrenceSpecification32"
+                LastKnownLocation="IMS.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="8569b0a8-f79a-4e02-b23d-63cbda0e7a54"
+                LastKnownName="MessageOccurrenceSpecification33"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="9cb74b99-876d-43c0-b57e-8c8db50eac74"
+            name="ExecutionOccurrenceSpecification19">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0b7b815d-b050-411c-a866-6823cbfbcfa6"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="IMS.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="0e425be2-1bae-40b6-abc8-a404590db6de"
+                LastKnownName="Tester"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="fca8efd4-e568-4271-b473-badf01622bfe"
+            name="MessageOccurrenceSpecification32">
+            <covered>
+              <lifelineMoniker
+                Id="0e425be2-1bae-40b6-abc8-a404590db6de"
+                LastKnownName="Tester"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1c59bc11-3281-4077-88be-a2680815e1ff"
+            name="MessageOccurrenceSpecification31">
+            <covered>
+              <lifelineMoniker
+                Id="3c82a8b1-2cc4-4830-8b2f-53669fbaadd4"
+                LastKnownName="Developer"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="17ed1c38-d73a-4851-8afd-bc31fc47b7b4"
+            name="MessageOccurrenceSpecification34">
+            <covered>
+              <lifelineMoniker
+                Id="3c82a8b1-2cc4-4830-8b2f-53669fbaadd4"
+                LastKnownName="Developer"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8569b0a8-f79a-4e02-b23d-63cbda0e7a54"
+            name="MessageOccurrenceSpecification33">
+            <covered>
+              <lifelineMoniker
+                Id="0e425be2-1bae-40b6-abc8-a404590db6de"
+                LastKnownName="Tester"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="efd84976-8388-4f7b-9209-d6469c677b0e"
+            name="ExecutionOccurrenceSpecification20">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="1e736852-cf40-4499-89c0-9453ea012265"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="IMS.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="0e425be2-1bae-40b6-abc8-a404590db6de"
+                LastKnownName="Tester"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e9851ea3-a8e9-4a1e-a8e4-668df480e323"
+            name="MessageOccurrenceSpecification30">
+            <covered>
+              <lifelineMoniker
+                Id="edd50822-1fa2-48d7-acef-1f0be2db2fbe"
+                LastKnownName="ScrumMaster"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a9d1907e-222d-4367-bd16-fe46ce657a48"
+            name="MessageOccurrenceSpecification29">
+            <covered>
+              <lifelineMoniker
+                Id="3c82a8b1-2cc4-4830-8b2f-53669fbaadd4"
+                LastKnownName="Developer"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="580a5445-5ae3-4d4d-933e-6eb6fde44807"
+            name="ExecutionOccurrenceSpecification18">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="adf81f57-5e40-4ea9-a16a-bb5fb470e58b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="IMS.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3c82a8b1-2cc4-4830-8b2f-53669fbaadd4"
+                LastKnownName="Developer"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9da5adb2-fe85-4869-8556-94a2d853616a"
+            name="MessageOccurrenceSpecification26">
+            <covered>
+              <lifelineMoniker
+                Id="1bf64281-27a0-49c1-8c1b-4cf7b9fedbad"
+                LastKnownName="ProductOwner"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="fd203d15-b8ea-4ab4-884a-0680e4f2c90d"
+            name="MessageOccurrenceSpecification25">
+            <covered>
+              <lifelineMoniker
+                Id="edd50822-1fa2-48d7-acef-1f0be2db2fbe"
+                LastKnownName="ScrumMaster"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="9facd6d9-94b8-45a9-bf2a-78f496673b6d"
+            name="ExecutionOccurrenceSpecification16">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7f00d576-8c38-4a91-806b-7d3f6d3cd3b6"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="IMS.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="edd50822-1fa2-48d7-acef-1f0be2db2fbe"
+                LastKnownName="ScrumMaster"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3d8f99e4-e83a-4e99-a9a4-2317a10cff84"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="7a618916-9ba6-460a-9ffa-b9b31b2bc002"
+                LastKnownName="ProjectManager"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e806a29d-1178-4ac6-aa1a-ec20cc8d40ca"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="1bf64281-27a0-49c1-8c1b-4cf7b9fedbad"
+                LastKnownName="ProductOwner"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="9820e7ab-914f-4563-b634-58244f535119"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="9b315a8b-0b8c-40ef-b86f-06ac0f293704"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="IMS.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="1bf64281-27a0-49c1-8c1b-4cf7b9fedbad"
+                LastKnownName="ProductOwner"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="7a618916-9ba6-460a-9ffa-b9b31b2bc002"
+            name="ProjectManager"
+            isActor="false"
+            lifelineDisplayName="ProjectManager">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="b36e342a-9147-4322-9d98-e4be1750a06b"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="IMS.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3d8f99e4-e83a-4e99-a9a4-2317a10cff84"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="1bf64281-27a0-49c1-8c1b-4cf7b9fedbad"
+            name="ProductOwner"
+            isActor="false"
+            lifelineDisplayName="ProductOwner">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="3a8149c9-8080-4560-8f05-bac2f69ea16a"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="IMS.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="9820e7ab-914f-4563-b634-58244f535119"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="edd50822-1fa2-48d7-acef-1f0be2db2fbe"
+            name="ScrumMaster"
+            isActor="false"
+            lifelineDisplayName="ScrumMaster">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="e7791998-4803-4152-9fcd-4a9578c5b069"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="IMS.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="9facd6d9-94b8-45a9-bf2a-78f496673b6d"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="3c82a8b1-2cc4-4830-8b2f-53669fbaadd4"
+            name="Developer"
+            isActor="false"
+            lifelineDisplayName="Developer">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="04ea4000-473c-4dd2-87d2-b7e5e8878b56"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="IMS.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="580a5445-5ae3-4d4d-933e-6eb6fde44807"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="0e425be2-1bae-40b6-abc8-a404590db6de"
+            name="Tester"
+            isActor="false"
+            lifelineDisplayName="Tester">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="9cb74b99-876d-43c0-b57e-8c8db50eac74"
+                LastKnownName="ExecutionOccurrenceSpecification19"
+                LastKnownLocation="IMS.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="efd84976-8388-4f7b-9209-d6469c677b0e"
+                LastKnownName="ExecutionOccurrenceSpecification20"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="cf8943cf-0a8c-4fe0-9ba8-9b1161175f09"
+            name="&lt;&lt;create&gt;&gt;"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b36e342a-9147-4322-9d98-e4be1750a06b"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3ed223b0-7a9b-44d2-bf62-537ed4bbe6d4"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="3367f483-c05c-4528-9cab-3e249aa8a8fb"
+            name="&lt;&lt;create&gt;&gt;"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c030eefa-c031-4255-abc5-2efa106831c9"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="566bed26-cfc6-4af5-94b8-4e66e0d57da3"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="9cf450ba-9385-4ad4-99c0-e0a60951b3a9"
+            name="&lt;&lt;create&gt;&gt;"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d2ec3937-eaf1-419d-a2b0-239fcc08c279"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a4471583-a50f-498a-a31a-825a34b3253a"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="d63ee1cd-519c-4fa5-b372-c8e5efffccbf"
+            name="&lt;&lt;create&gt;&gt;"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1c59bc11-3281-4077-88be-a2680815e1ff"
+                LastKnownName="MessageOccurrenceSpecification31"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="fca8efd4-e568-4271-b473-badf01622bfe"
+                LastKnownName="MessageOccurrenceSpecification32"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="40817a67-a967-4a97-bfb1-1bdb75e5bd23"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8569b0a8-f79a-4e02-b23d-63cbda0e7a54"
+                LastKnownName="MessageOccurrenceSpecification33"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="17ed1c38-d73a-4851-8afd-bc31fc47b7b4"
+                LastKnownName="MessageOccurrenceSpecification34"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="97a069f6-bf12-40ac-904d-518035f32ddf"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a9d1907e-222d-4367-bd16-fe46ce657a48"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e9851ea3-a8e9-4a1e-a8e4-668df480e323"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="f1249fcd-cb2f-4e2e-9d34-3447520de4c3"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="fd203d15-b8ea-4ab4-884a-0680e4f2c90d"
+                LastKnownName="MessageOccurrenceSpecification25"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9da5adb2-fe85-4869-8556-94a2d853616a"
+                LastKnownName="MessageOccurrenceSpecification26"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="280d4c53-c7fe-42e8-8653-74419198181c"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e806a29d-1178-4ac6-aa1a-ec20cc8d40ca"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3d8f99e4-e83a-4e99-a9a4-2317a10cff84"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="e44dc58c-99a3-4c2d-8e30-16a25570694f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="9b315a8b-0b8c-40ef-b86f-06ac0f293704"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="40641929-e087-43d2-96bb-4b452638450a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7f00d576-8c38-4a91-806b-7d3f6d3cd3b6"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="53f4ac67-9dd3-488e-8250-710b5631b559"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="adf81f57-5e40-4ea9-a16a-bb5fb470e58b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0b7b815d-b050-411c-a866-6823cbfbcfa6"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="1e736852-cf40-4499-89c0-9453ea012265"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="13c84fbd-f2ad-4a63-bc3a-89797de9acc5"
+        name="Employee"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="505ba357-4c98-4a60-81a0-bb41534a6f5c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9d75baf8-804a-4e7d-bba0-a58192097d18">
+                <propertyInstance
+                  Id="b5f2cecd-8a29-4250-8cf7-59c67567e574"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e427156d-d571-45ac-b712-9d23e8644909">
+                <propertyInstance
+                  Id="1e893c31-ec51-411c-9465-a6691b7c71a8"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="db5bc13f-9554-4f9b-9c2f-99572778a265">
+                <propertyInstance
+                  Id="f2bc00fb-963b-474f-a9f4-ad99ab3074d5"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7c870c09-ee57-4999-9b22-7d2957f0a244">
+                <propertyInstance
+                  Id="2c44a661-2d63-44a2-b6ab-5af394a8134c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6b84f461-0a88-4f12-82d7-252da209a765">
+                <propertyInstance
+                  Id="208cd3d5-02b7-4524-afc8-b1fca5af87e5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="7814e376-c285-42ae-ba72-ab2ace8718d4">
+            <interfaceMoniker
+              Id="635ad229-2b6f-494c-9d53-430e42f94607"
+              LastKnownName="IRol"
+              LastKnownLocation="IMS.Modeling.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="b9d96ba2-194d-47b9-987d-8637ee0dede5"
+            isSubstitutable="false">
+            <classMoniker
+              Id="fed9419a-2c71-4609-9cf3-eab6d0f11509"
+              LastKnownName="Person"
+              LastKnownLocation="IMS.Modeling.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="e21ede69-9d05-417c-8ce3-32bf197242ef"
+            isDerived="false"
+            sourceEndRoleName="Employee"
+            targetEndRoleName="AccountingDepartment"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="76b4a213-9697-44c1-b59e-ad3b09a4c521"
+              LastKnownName="AccountingDepartment"
+              LastKnownLocation="IMS.Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b7854846-d5fb-4f93-b3c8-b20624f69c11"
+                  name="Employee"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="45b5da09-c2c8-4469-a323-7f0ede9c0438"
+                  name="AccountingDepartment"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="53ac3632-b358-4c6e-bd76-25075f1b6b28"
+            name="BankAccount"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="a7d2054b-3056-40a6-b825-60f879f2df64"
+            name="EmployeeType"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="2813f145-3633-47d2-9316-4328be47678b"
+            name="DevelopCoding"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="b35f8969-e97e-4612-9965-3f22de2437ff"
+            name="DevelopTestCases"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="69d2a2e5-6c11-4105-bd8a-9844ab388162"
+            name="DevelopUnitTesting"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="a2d45935-8e5d-4a86-baeb-4de7710cec20"
+            name="DeployProject"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1c49de8d-02cd-4091-aa16-0a69e12e708b"
+                  name="targetEnviron"
+                  direction="In">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="IMS.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="fed9419a-2c71-4609-9cf3-eab6d0f11509"
+        name="Person"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b097a0ab-0757-4c19-8a03-d0c6f56ccbbb"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fbe501f1-cf56-4e3d-af23-2b1062b9722a">
+                <propertyInstance
+                  Id="54282177-f3f9-4032-9f9a-c043ff86ae2d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="edc92bfa-98bb-4406-995b-936bfedd7049">
+                <propertyInstance
+                  Id="dd80f609-d18b-473e-9537-7ae61ef62dc8"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5c5594b5-e0ff-4405-a3d1-9d7bc8358a07">
+                <propertyInstance
+                  Id="ce609629-2f7d-4997-8ca1-80954109f01c"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e5fa8eb2-7913-4bdc-8223-bfc75ba8f6cb">
+                <propertyInstance
+                  Id="85c660e9-155f-4952-a6f3-4207a6e8b441"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9ef03b56-5333-4205-a6d9-d283b973e479">
+                <propertyInstance
+                  Id="e8585fcb-26aa-47ff-a6b4-24175a3bd910"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="896baf2c-3eff-49d1-a2fb-ac2776a180b2"
+            name="Identification"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="e2aae225-7bfd-440f-b301-d372de4474b7"
+            name="FirstName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="56646e87-2f76-4c7a-9e16-9dd7827eac55"
+            name="LastName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a881ebf6-e745-4c32-91d0-f8bd5dcbf09b"
+        name="Prototype"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a103ff84-5e21-478c-892f-f64b56642593"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="24a69fea-5a8f-4355-91e2-551f70eac4d0">
+                <propertyInstance
+                  Id="c0a12528-86a4-45b2-92bd-e38d67d7e168"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="62e7da02-e901-42ed-866e-abdea3596364">
+                <propertyInstance
+                  Id="49e18328-9f4a-42e4-8ff9-3b2c8764e37a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f285bb5b-b5ed-47e2-97c8-20cd8520e325">
+                <propertyInstance
+                  Id="ef6936dd-f839-4baa-80ad-21509111a108"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="64da7159-dea7-4521-af91-ce9e7565467d">
+                <propertyInstance
+                  Id="fcab0d96-bb64-4550-9844-4f6737679e7b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5b280cc9-4557-416b-b124-4275df4ff48b">
+                <propertyInstance
+                  Id="26528cfb-fec5-4c3e-9271-99f8c0d17b81"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="a8757bb1-37b1-406c-ba7a-796693a06070"
+            isSubstitutable="false">
+            <classMoniker
+              Id="fed9419a-2c71-4609-9cf3-eab6d0f11509"
+              LastKnownName="Person"
+              LastKnownLocation="IMS.Modeling.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="b28894e4-57f2-4569-8e71-ae44243fff1e"
+            isDerived="false"
+            sourceEndRoleName="Prototype"
+            targetEndRoleName="HumanResources"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="a4750276-69e3-48a0-bb14-8df2cdd405fd"
+              LastKnownName="HumanResources"
+              LastKnownLocation="IMS.Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="74b3b18b-a1e5-4cd4-b448-6d63445175f2"
+                  name="Prototype"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6b046bda-23db-4de6-a78c-75347e9866b0"
+                  name="HumanResources"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a4750276-69e3-48a0-bb14-8df2cdd405fd"
+        name="HumanResources"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="70a1f3ad-795e-45d4-91f8-44f38e51c9a5"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2d06752a-cfcc-4e51-978d-ec2ce132e451">
+                <propertyInstance
+                  Id="f384ce55-a3f4-46cb-aae4-85afd09071ce"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0840ed50-327a-43cf-9645-42464014bed9">
+                <propertyInstance
+                  Id="c955cceb-0d7c-485c-872d-7f9945abd063"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d5a5b2da-a3c1-4369-a64b-a13defeb6ed8">
+                <propertyInstance
+                  Id="103bfb96-9294-4f6a-aed2-03194806cd10"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e792c4a6-0a5e-495c-9ac2-cb84d963ff23">
+                <propertyInstance
+                  Id="92167781-0648-484c-8a77-da6dcb932878"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0a649ccc-e727-47f1-9854-3eca6036cb45">
+                <propertyInstance
+                  Id="e1168e1f-fd39-4d51-975a-716cf0f1805e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="65e5edc9-170f-4c9c-ac10-edd9d3fc8803"
+            name="HireStaff"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="82a0e7dd-1a09-42de-b25f-861797564dcb"
+                  name="candidate"
+                  direction="In">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a881ebf6-e745-4c32-91d0-f8bd5dcbf09b"
+                      LastKnownName="Prototype"
+                      LastKnownLocation="IMS.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="76b4a213-9697-44c1-b59e-ad3b09a4c521"
+        name="AccountingDepartment"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ef56a5a7-4c0c-4ca4-b561-fb4a22744137"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fd8195f4-075c-4a9d-a8b3-e7a41c43a1a5">
+                <propertyInstance
+                  Id="cf645b45-aea9-4651-a98c-a8cb74c2daa8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="569a2858-18bd-4267-842c-0c51a16a5a77">
+                <propertyInstance
+                  Id="18d5d076-7d3d-4302-b9cf-55929dc4c331"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a865c9d6-2d85-4fdf-a2cd-83ffa5c1f863">
+                <propertyInstance
+                  Id="4ee8b8c0-7b8b-4ba4-9afa-669f408641b9"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ac93eea4-ff9f-453c-8264-68f9f77836f8">
+                <propertyInstance
+                  Id="57961809-d7d1-4b6a-a276-544b113ed284"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="70a26ab6-7c94-45c4-a4d3-97717599b0d1">
+                <propertyInstance
+                  Id="8e06c7ed-ff9c-473b-95ca-305b43667f6a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="a47cfa9f-d552-4049-84b2-10952e333a96"
+            name="PaySalary"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d744f3b7-2cc1-48e4-bfcd-3e48fee8a0a9"
+                  name="resource"
+                  direction="In">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="13c84fbd-f2ad-4a63-bc3a-89797de9acc5"
+                      LastKnownName="Employee"
+                      LastKnownLocation="IMS.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="635ad229-2b6f-494c-9d53-430e42f94607"
+        name="IRol"
+        isAbstract="false"
+        isLeaf="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="de9177b5-db87-4a0d-a2c2-77c309dc8ece"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9ba3e35e-61e1-424a-bbe4-783a68bb018a">
+                <propertyInstance
+                  Id="3901c249-65f9-4010-92ee-fb177b95bdde"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7097098b-7b84-4c74-8d7d-2f527be84c10">
+                <propertyInstance
+                  Id="02f34e05-5ebb-4ab1-a126-c720d2ff1a8f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="164e1e74-9ab9-46c3-b281-5c3e03db7d5a">
+                <propertyInstance
+                  Id="d779cbbc-e00b-4dd7-acf6-914d7ab9981d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a01481e5-318f-4926-83ff-f36d09b363aa">
+                <propertyInstance
+                  Id="4e68662c-2af4-4ae6-8020-555040571363"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributes>
+          <property
+            Id="1cc04bcb-7e39-4311-b810-44d7e1a44dd0"
+            name="Attribute1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributes>
+        <ownedOperations>
+          <operation
+            Id="98b678f2-5758-4209-b23e-0988e1f6bb29"
+            name="DevelopCoding"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="4e0dde97-2f74-43f2-941c-a9d676e4bfaa"
+            name="DevelopTestCases"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="b1ca6157-dd43-43e5-b898-12e66c3512f6"
+            name="DevelopUnitTesting"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="6328b9bb-c454-4172-80fa-60aeab1ad223"
+            name="DeployProject"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5671587b-bd63-45c0-8c79-941983709086"
+                  name="targetEnviron"
+                  direction="In">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="IMS.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="ff1ff092-4b57-4b34-98a2-4fc17e7c23c7"
+        name="TypeEmployee"
+        isAbstract="false"
+        isLeaf="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="da60a0eb-8ced-4875-8f2e-595c98dc2081"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2eaf5819-71d4-472a-beda-4da38b4c1ea7">
+                <propertyInstance
+                  Id="753ced5a-b0d5-4d10-a72d-5f9d24ff987c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3a6c6e9d-a1ae-4998-baaa-b1605cbb7279">
+                <propertyInstance
+                  Id="bbc716f0-75e3-446d-972d-f44143ec50d1"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3979cd50-5330-4601-b154-1857c27bc2e4">
+                <propertyInstance
+                  Id="367856f0-fdd5-4455-8505-8611b10863bd"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedLiterals>
+          <enumerationLiteral
+            Id="d19c5e80-21d6-4cd3-b040-31886e6a6154"
+            name="Developer">
+            <specification>
+              <literalInteger
+                Id="3fced39f-55bc-4f6b-a145-64947fac5d98"
+                name="Integer"
+                value="0" />
+            </specification>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="b52aff16-4d73-4b87-b68d-d0ccffe9f069"
+            name="Accountant">
+            <specification>
+              <literalInteger
+                Id="d6882d26-9e87-4ec4-9c03-6530b23ced9f"
+                name="Integer"
+                value="1" />
+            </specification>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="2d140794-8d04-4dfa-93d4-791b13478e73"
+            name="Tester" />
+          <enumerationLiteral
+            Id="2b72669d-f1a9-4356-a4f2-dd3d918703b0"
+            name="ProjectOwner" />
+          <enumerationLiteral
+            Id="1934b09d-6cb0-42cb-91ed-2440e0881805"
+            name="C.E.O" />
+        </ownedLiterals>
+      </enumeration>
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType

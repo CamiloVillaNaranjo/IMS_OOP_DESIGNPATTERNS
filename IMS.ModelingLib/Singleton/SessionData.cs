@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Web;
 
-namespace IMS.ModelingLib.IMS.StupidParadigm
+namespace IMS.StupidCode.IMS.StupidParadigm
 {
 
     public class SessionData

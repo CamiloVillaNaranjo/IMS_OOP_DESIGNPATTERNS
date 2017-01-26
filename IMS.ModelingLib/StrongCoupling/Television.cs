@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IMS.ModelingLib.StrongCoupling
+namespace IMS.StupidCode.StrongCoupling
 {
     public class Television
     {

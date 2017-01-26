@@ -1,11 +1,7 @@
-﻿using IMS.ModelingLib.StrongCoupling;
+﻿using IMS.StupidCode.StrongCoupling;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace IMS.ModelingLib.IMS.StupidParadigm
+namespace IMS.StupidCode.IMS.StupidParadigm
 {
     public class Proof
     {

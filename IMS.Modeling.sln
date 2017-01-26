@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "IMS.Modeling", "IMS.Modeling\IMS.Modeling.modelproj", "{19EFBA43-8147-4A24-AF6E-55C3FE9150D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMS.ModelingLib", "IMS.ModelingLib\IMS.ModelingLib.csproj", "{973324DB-2482-4453-97E7-CAC6A415260B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMS.StupidCode", "IMS.ModelingLib\IMS.StupidCode.csproj", "{973324DB-2482-4453-97E7-CAC6A415260B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
