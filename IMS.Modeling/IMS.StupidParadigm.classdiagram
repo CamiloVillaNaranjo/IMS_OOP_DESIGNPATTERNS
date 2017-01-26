@@ -149,6 +149,9 @@
           </property>
           <property Id="560d5649-bc5e-44d6-b855-389b8dca5dcb" name="EmployeeType" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="a7d2054b-3056-40a6-b825-60f879f2df64" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="56ac8ab6-6660-4ee7-8e27-91ae34fbb3bd" LastKnownName="TypeEmployee" />
+            </type_NamedElement>
           </property>
         </ownedAttributesInternal>
         <ownedOperationsInternal>
@@ -547,6 +550,11 @@
         </ownedLiterals>
       </enumeration>
     </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="56ac8ab6-6660-4ee7-8e27-91ae34fbb3bd" name="TypeEmployee" isAbstract="false" isLeaf="false" cachedFullName="IMS.StupidModel::TypeEmployee">
+        <elementDefinition Id="ff1ff092-4b57-4b34-98a2-4fc17e7c23c7" />
+      </referencedType>
+    </packageHasNamedElement>
   </packagedElements>
   <package Id="fd68ab74-9191-4e3a-81de-8f622a4168a2" name="IMS.StupidModel">
     <elementDefinition Id="ce286f20-eaa1-46a7-b663-d9c6958eab51" />

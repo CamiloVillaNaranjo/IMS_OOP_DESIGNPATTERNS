@@ -1143,7 +1143,14 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <enumerationMoniker
+                Id="ff1ff092-4b57-4b34-98a2-4fc17e7c23c7"
+                LastKnownName="TypeEmployee"
+                LastKnownLocation="IMS.Modeling.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
