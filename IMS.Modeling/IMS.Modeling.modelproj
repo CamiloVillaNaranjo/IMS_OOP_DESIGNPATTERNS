@@ -22,13 +22,6 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
-    <Content Include="IMS.SolidParadigm.classdiagram">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="IMS.SolidParadigm.classdiagram.layout">
-      <SubType>Content</SubType>
-      <DependentUpon>IMS.SolidParadigm.classdiagram</DependentUpon>
-    </Content>
     <Content Include="UMLSequenceDiagram1.sequencediagram">
       <SubType>Content</SubType>
     </Content>
